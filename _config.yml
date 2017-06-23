@@ -3,28 +3,21 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "Kiko Plus"
+name:               "Nafeu's Studio Space"
 
 author:
   facebook:         your-id
-  youtubeUser:      your-id
-  youtubeChannel:   your-id
-  twitter:          your-id
-  github:           your-id
-  stackoverflow:    your-id
-  quora:            your-id
-  linkedin:         your-id
-  pinterest:        your-id
-  googlePlus:       your-id
-  instagram:        your-id
-  reddit:           your-id
-  medium:           your-id
-  tumblr:           your-id
-  email:            your-id@your-email.com
+  youtubeChannel:   phrakture
+  twitter:          phrakturemusic
+  github:           nafeu
+  stackoverflow:    nafeu
+  linkedin:         nafeu-nasir-aa679b60
+  instagram:        phrakture
+  email:            nafeu.nasir@gmail.com
 
 copyright:
   year:             2017
-  name:             Kiko
+  name:             Nafeu Nasir
 
 # Google-analytics
 google-analytics:
@@ -32,16 +25,16 @@ google-analytics:
 
 # Disqus
 disqus:
-  id:               "kiko-plus"
+  id:               ""
 
 # URL
-url:                "https://AWEEKJ.github.io" # the base hostname & protocol for your site
+url:                "https://nafeu.github.io" # the base hostname & protocol for your site
 # url:                "http://localhost:4000" # use this url when you develop
-baseurl:            "/Kiko-plus" # the subpath of your site, e.g. /blog
+baseurl:            "" # the subpath of your site, e.g. /blog
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           Asia/Seoul
+timezone:           Canada/Eastern
 permalink:          /:year-:month-:day/:title/
 
 # Pagination
@@ -61,8 +54,6 @@ nav:
     url:            "/archive"
   - name:           "Tags"
     url:            "/tags"
-  - name:           "Github"
-    url:            "https://github.com/AWEEKJ/Kiko-plus"
 
 # Sass
 sass:
