@@ -6,3 +6,52 @@ sitemap: false
 @import "typography";
 @import "highlighter";
 @import "site";
+
+body {
+  line-height: 1.4;
+}
+
+.list {
+  background-color: $oc-white;
+  border-left: 6px solid $base-color;
+  padding-left: 1px;
+}
+
+.list-post {
+  padding: 4%;
+  transition: 300ms all ease-in-out;
+}
+
+.list-post:hover {
+  border-radius: 0;
+}
+
+.post {
+  background-color: $oc-white;
+  border-left: 6px solid $base-color;
+  padding: 4%;
+}
+
+.list-post-title {
+  margin-bottom: 0;
+}
+
+.header-title {
+  margin: 0;
+}
+
+.header {
+  display: inline-block;
+}
+
+.thin {
+  font-weight: 200;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+pre {
+  padding: 4%
+}

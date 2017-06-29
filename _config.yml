@@ -3,7 +3,7 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "Nafeu's Studio Space"
+name:               "Nafeu Nasir"
 
 author:
   facebook:         phrakturemusic
@@ -79,6 +79,6 @@ defaults:
 gems:
   - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll-admin
+  # - jekyll-admin
 
 exclude:            [vendor]

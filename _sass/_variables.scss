@@ -3,7 +3,7 @@
 /*--------------
   Font
   -------------- */
-$base-font: 'Spoqa Han Sans', 'Source Sans Pro', Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif;
+$base-font: 'Titillium Web', 'Source Sans Pro', Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif;
 $code-font: Menlo, 'Ubuntu Mono', Monaco, 'Spoqa Han Sans', monospace;
 $code-gist-font: Menlo, 'Ubuntu Mono', Monaco, 'Spoqa Han Sans', monospace;
 
@@ -16,10 +16,11 @@ $mobile-font-size: 16px;
 /*--------------
   Color
   -------------- */
-$base-color: $oc-gray-8;
+$base-color: #2C3E50;
 $base-lighten-color: $oc-gray-6;
+$base-highlight: #E74C3C;
 
-$background-color: $oc-white;
+$background-color: #ECF0F1;
 $background-over-color: $oc-gray-1;
 
 $text-color: $oc-gray-8;
@@ -29,7 +30,7 @@ $code-background-color: $oc-gray-1;
 $table-border-color: $oc-gray-2;
 $table-background-color: $oc-gray-1;
 
-$divider-color: $oc-gray-1;
+$divider-color: $background-color;
 
 
 /*--------------
