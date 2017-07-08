@@ -25,7 +25,7 @@ google-analytics:
 
 # Disqus
 disqus:
-  id:               ""
+  id:               "nafeu-com"
 
 # URL
 url:                "https://nafeu.github.io" # the base hostname & protocol for your site
