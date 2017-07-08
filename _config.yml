@@ -50,10 +50,14 @@ kramdown:
 nav:
   - name:           "About"
     url:            "/about"
-  - name:           "Archive"
-    url:            "/archive"
-  - name:           "Tags"
-    url:            "/tags"
+  - name:           "Portfolio"
+    url:            "/portfolio"
+  - name:           "Music"
+    url:            "http://music.phrakture.com"
+  - name:           "Tutorials"
+    url:            "/tutorials"
+  - name:           "Contact"
+    url:            "/about#contact"
 
 # Sass
 sass:

@@ -1,13 +1,11 @@
 ---
 layout: default
 ---
+{% include nav.html %}
 <div class="post">
-  <header>
-    <div class="header-small">
-      <a href="{{site.url}}{{site.baseurl}}">Nafeu Nasir</a>
-    </div>
-  </header>
   <div class="post-title">{{ page.title }}</div>
+  <span class="post-author">by {{ site.name }}</span>
+  -
   <span class="post-date">
     <time>{{ page.date | date_to_string }}</time>
   </span>
@@ -25,6 +23,8 @@ layout: default
   </div>
 
   {{ content }}
+
+  {% include author.html %}
 
   <!-- Disqus -->
   {% if page.comments != false and site.disqus.id %}
