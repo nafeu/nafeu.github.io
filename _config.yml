@@ -50,12 +50,8 @@ kramdown:
 nav:
   - name:           "About"
     url:            "/about"
-  - name:           "Portfolio"
-    url:            "/portfolio"
   - name:           "Music"
     url:            "http://music.phrakture.com"
-  - name:           "Tutorials"
-    url:            "/tutorials"
   - name:           "Contact"
     url:            "/about#contact"
 
