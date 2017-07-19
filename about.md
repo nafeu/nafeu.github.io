@@ -9,30 +9,7 @@ TODO: INSERT IMAGE OF ME ON COMPUTER IN 2004
 
 I am a young innovator with a versatile set of skills in software development, graphic design and music production. I am interested in natural language processing, data visualization, machine learning, API economy and user experience design.
 
-I like to geek out about spoken language syntax analysis, play first-person shooters and mess around with electronic music under the artist name [Phrakture](http://music.phrakture.com).
-
-### <a name="readings"></a>My Personal Reading List
-<span class="help-text">Last updated July 17th, 2017 -- ~~Completed~~, **In Progress**</span>
-- Fiction
-
-  **Oryx & Crake**<br/>
-  Brave New World<br/>
-  Snowcrash
-
-- Non-Fiction
-
-  ~~Apprenticeship Patterns~~<br/>
-  ~~Meditations - Markus Aurelius~~<br/>
-  **Power of Habit**
-
-- Professional Development
-
-  **D3 Tips and Tricks**<br/>
-  **NLP with Python - O'Reilly**<br/>
-  Hands-On Machine Learning with Scikit-Learn and Tensorflow - O'Reilly<br/>
-  The Scientist and Engineer's Guide to Digital Signal Processing
-
-
+I like to geek out about spoken language syntax analysis, play first-person shooters and mess around with electronic music under the artist name [Phrakture](http://music.phrakture.com). Follow me on [Goodreads](http://www.goodreads.com/nafeu) to see what I've been digging in to lately feel free to recommend a good book while you are at it!
 
 ## <a name="development"></a>Development
 
