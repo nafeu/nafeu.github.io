@@ -11,6 +11,16 @@ body {
   line-height: 1.4;
 }
 
+.file-path {
+  text-align: center;
+  padding: 5px;
+  color: #d14;
+  font-weight: bold;
+  font-size: 0.75em;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
 .list {
   background-color: $oc-white;
   border-left: 6px solid $base-color;
