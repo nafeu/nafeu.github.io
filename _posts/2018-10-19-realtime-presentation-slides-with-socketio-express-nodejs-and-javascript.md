@@ -10,16 +10,16 @@ share: true
 
 <img src="/images/realtime-slides-tut-sca-1.gif" style="width: 480px; max-width: 100%;">
 
-Prototyping and building realtime web applications has never been as easy as it is today. There are many libraries that have taken away the complexity of utilizing websocket technology. In this tutorial, we will look at using **Socket.io** and **JavaScript** in conjunction with **Express** and **Node** to build an incredibly simple, minimal presentation slides app that lets you update slides live off any internet connected device. Once completed, you can totally show it off at your next tech talk or lunch & learn.
+Prototyping and building real-time web applications has never been as easy as it is today. There are many libraries that have taken away the complexity of utilizing **[WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)** technology. In this tutorial, we will look at using **Socket.io** and **JavaScript** in conjunction with **Express** and **Node** to build an incredibly simple and minimal presentation slides app that let's you update slides in real-time off of any internet connected device. Once completed, you can totally show it off at your next tech talk or lunch & learn.
 
-The demo app for this tutorial is available at: [github.com/nafeu/realtime-slides-tut](https://github.com/nafeu/realtime-slides-tut)
+The demo app for this tutorial is available at: [github.com/nafeu/realtime-slides-tut](https://github.com/nafeu/realtime-slides-tut) and a demonstration video is available [here](https://youtu.be/WmE6dkRFY4Y).
 
 Some things to note before we get started:
 
 - This tutorial requires Node.js v7 or higher.
 - We will try and use as little **Socket.io** code as possible. This means we won't modify any configurations and will just use the library as it is right out of the box.
 - We will add basic console logging to help debug and visualize the connection flow but these aren't needed for the app the work.
-- For simplicity's sake, we will be writing _on-page_ javascript inside our html files. In practice, our JavaScript would exist in different files and we would use a build config system like webpack to bundle it all together in an appropriate fashion. We aren't going to bother with that for now. Let's just have some fun.
+- For simplicity's sake, we will be writing _on-page_ javascript inside our html files. In practice, our JavaScript would exist in different files and we would use a module bundler or build config system like webpack to bundle it all together in an appropriate fashion. We aren't going to bother with that for now.
 - We will use ES6 syntax on both the server and client.
 
 #### The point of this tutorial is to show you how **EASILY** you can begin adding real-time interactivity as a part of the apps you build.
@@ -32,7 +32,7 @@ cd realtime-slides-tut
 touch package.json
 ```
 
-Inside our **package.json**, lets fill in some basic information:
+Inside our **package.json**, let's fill in some basic information:
 
 <div class="file-path">package.json</div>
 
@@ -45,19 +45,19 @@ Inside our **package.json**, lets fill in some basic information:
 }
 ```
 
-Now lets install our dependencies:
+Now let's install our dependencies:
 
 ```
 npm install --save express socket.io showdown
 ```
 
 - **[Express](https://expressjs.com/)** allows us to create the webserver and REST API needed to run our app
-- **[Socket.io](https://socket.io/)** is the real-time engine (using websockets)
+- **[Socket.io](https://socket.io/)** is the real-time engine (utilizing the WebSocket API)
 - **[Showdown](http://showdownjs.com/)** converts **Markdown** (a simple plain text formatting syntax) into HTML for us
 
 The installation should generate a **package-lock.json** file and **node_modules** folder, these are just responsible for maintaining our dependencies.
 
-Lets get our server up and running. Create a **server.js** file and add in the following:
+Let's get our server up and running. Create a **server.js** file and add in the following:
 
 <div class="file-path">server.js</div>
 
@@ -74,7 +74,7 @@ server.listen(process.env.PORT || 8000, () => {
 });
 ```
 
-Here we are using **Express** to instantiate an HTTP server that is connected to an **Express** `app`. When we run it, the `console.log( ... )` should show us which port the server is running on (default is `8000`).
+Here we are using **Express** to instantiate an HTTP server and attaching it to an **Express** `app`. When we run it, the `console.log( ... )` should show us which port the server is running on (we have set the default to port `8000`).
 
 Test it out by running `node server.js` and you should see the following output:
 
@@ -86,7 +86,7 @@ Everytime we update our **server.js** file we will have to restart our server, t
 
 Make sure you've ended your original server process, open a new shell instance aside from your main one and run `nodemon server.js`. This way we can keep making changes to our files and the server will restart automatically for us.
 
-Now we want to set up some basic views and routes. Lets create a folder for our views and add **show.html** and **edit.html**:
+Now we want to set up some basic views and routes. Let's create a folder for our views and add **show.html** and **edit.html**:
 
 ```
 mkdir views
@@ -149,14 +149,14 @@ app.get('/edit', (req, res) => {
 });
 ```
 
-For those who may be a bit unfamiliar with **Express**, don't be thrown off by the routing code. `app.get( ... )` handles a **GET request** to the specified endpoint and the code inside `(req, res) => { ... }` is where we decide how we want to handle that request. The `res` object allows us to give a response.
+For those who may be a bit unfamiliar with **Express**, don't be thrown off by the routing code. `app.get( ... )` handles a **GET request** to the specified endpoint and the code inside `(req, res) => { ... }` is where we decide how we want to handle that request. The `res` object allows us to administer a response.
 
 Our goal is to do the following:
 
 - User goes to `/` (ie. performs a **GET request** to `localhost:8000/`) => respond with **show.html**
 - User goes to `/edit` (ie. performs a **GET request** to `localhost:8000/edit`) => respond with **edit.html**
 
-We want to build a clean path to our html files, so we use `path.join(__dirname, ...)` to build a that path. Then we use `res.sendFile( ... )` to send the file at that specific path.
+We want to build a clean path to our html files, we do this with `path.join(__dirname, ... )`. Then we use `res.sendFile( ... )` to send the file at that specific path.
 
 Now if we open a web browser to `localhost:8000`, we should see the following:
 
@@ -168,14 +168,14 @@ And if we go to `localhost:8000/edit`, we should have:
 
 We can also test out our routes using [curl](https://curl.haxx.se/) like so:
 
-```
+```bash
 $ curl localhost:8000/
 <h1>view: show</h1>
 $ curl localhost:8000/edit
 <h1>view: edit</h1>
 ```
 
-#### Now that our views and routes are set up, lets get our socket connections up and running.
+#### Now that our views and routes are set up, let's get our WebSocket connections up and running.
 
 In our **server.js**, require `socket.io` at the top and create an `io` object connected to our `server`. Then add a `Socket Events` section below our routes as follows:
 
@@ -216,15 +216,15 @@ io.on('connection', (socket) => {
 });
 ```
 
-The `io` object is what will manage all of our websocket communication from the server-side. **Socket.io** gives us a very straightforward [server-side API](https://socket.io/docs/server-api/) for event handling.
+We have now opened a WebSocket connection to `localhost:8000` (this is the default since we didn't choose otherwise). The `io` object is what will manage this connection from the server-side. **Socket.io** gives us a very straightforward [server-side API](https://socket.io/docs/server-api/) for event handling.
 
-`io.on('connection', (socket) => { ... })` registers a handle for the `connection` event which is fired off once a client successfully connects. The `socket` object represents our line of communication directly with that **one** client connection.
+`io.on('connection', (socket) => { ... })` registers a handle for the `connection` event which is fired off once a client successfully connects. The `socket` object holds our line of communication with that **one** client.
 
 So take a look at the following:
 
 <div class="file-path">server.js - Socket Events</div>
 
-```
+```javascript
 // Socket Events
 
 io.on('connection', (socket) => {
@@ -236,7 +236,7 @@ io.on('connection', (socket) => {
 });
 ```
 
-What we are doing here is logging the `id` for a client once they've connected, then logging it again once they've disconnected. It will make a lot more sense once we start connecting and disconnecting ourselves, but before we can get this to work, our client needs to know how to connect, so lets write our client-side code.
+What we are doing here is logging the `id` for a client once they've connected, then logging it again once they've disconnected. It will make a lot more sense once we start connecting and disconnecting ourselves, but before we can get this to work, our client needs to know how to connect, so let's write our client-side code.
 
 Open **show.html** and fill it with the following:
 
@@ -284,7 +284,9 @@ Look back at the JavaScript in our **show.html** file:
   </script>
 ```
 
-Here we create an instance of the main client-side **Socket.io** library with `const socket = io();`. This `socket` object is what will form the websocket connection with our server.
+Here we create an instance of the main client-side **Socket.io** library with `const socket = io();`. By default, it creates a WebSocket connection to `localhost:8000` (since we did not specify otherwise). Recall that we had opened one for `localhost:8000` initially in our **server.js**, that is what it is connecting to.
+
+_* Note: there is no significance to port `8000`, if your server was listening on other arbitrary ports like `4000` or `3333` then the default WebSocket connections would have opened on `localhost:4000` or `localhost:3333` respectively._
 
 Now if we open `localhost:8000` in a web browser and then look back to our server process, we should see something like this:
 
@@ -292,7 +294,7 @@ Now if we open `localhost:8000` in a web browser and then look back to our serve
 
 The generated `id` will be unique for every connected client. Try opening `localhost:8000` in multiple browser tabs and you will see a bunch of different connection ids logged.
 
-#### Now lets begin implementing the logic we need to actually get our presentation slides app going.
+#### Now let's begin implementing the logic pertaining to presentation slides.
 
 We can start by understanding how to handle socket events on the client.
 
@@ -314,7 +316,7 @@ Within the _on-page_ script on **show.html**, add the following:
 
 This adds a handle for a new event type we create called `update slide`. We want to have an `alert` pop up on screen anytime we recieve an `update slide` event from our socket connection.
 
-Now that we have that ready, lets figure out how we can actually fire that event within our server.
+Now that we have that ready, let's figure out how we can actually fire that event within our server.
 
 Go back to the `Socket Events` section in our **server.js**, and underneath our first `console.log()` add `socket.emit('update slide')` like so:
 
@@ -336,14 +338,14 @@ io.on('connection', (socket) => {
 
 This is temporary and just for us to demonstrate how the event emission process works between the **Socket.io** server and client. What this will do is fire an `update slide` event directly to any client that connects. It occurs in this order:
 
-1. A client establishes a websocket connection with the server (ie. a single user opens our page).
-2. The server (`io` object) handles that connection and gets access to it's relating `socket` object.
-3. The server (`io` object) emits an `update slide` event to that client through the `socket` object.
+1. A client establishes a WebSocket connection to `localhost:8000` (ie. a single user opens our page).
+2. The server-side `io` object handles that connection and gets access to it's relating `socket` object.
+3. The server-side `io` object emits an `update slide` event to that client through the `socket` object.
 3. The client recieves that `update slide` event and shows an `alert`.
 
 Open `localhost:8000` in your browser to try it out, you should see the `alert`.
 
-#### Now lets modify it a bit so we can send some data along with the events we emit.
+#### Now let's modify it a bit so we can send some data along with the events we emit.
 
 <div class="file-path">server.js - Socket Events</div>
 
@@ -362,6 +364,8 @@ io.on('connection', (socket) => {
 ```
 
 Here in `socket.emit('update slide', ... )` we are sending `` `Hello ${socket.id}` `` as a payload along with our `update slide` event.
+
+Update the JavaScript in **show.html** as so:
 
 <div class="file-path">views/show.html - On-Page JavaScript</div>
 
@@ -412,7 +416,7 @@ function updateSlide(html) {
 }
 ```
 
-Here we removed that `socket.emit( ... )` code and added a new helper function `updateSlide(html)` which emits an `update slide` event to all clients along with given html as the payload.
+Here we removed that `socket.emit( ... )` code and added a new helper function `updateSlide(html)` which emits an `update slide` event to **ALL** clients along with given html as the payload.
 
 Now add an `API` section underneath the `Socket Events` section and fill it in with the following:
 
@@ -435,7 +439,10 @@ app.get('/api/updateSlide', (req, res) => {
 });
 ```
 
-Now the endpoint `/api/updateSlide` handles a **GET** request, if the query params contain the var `html` (ie. `localhost:8000/api/updateSlide?html=hello%20world`) then we call the `updateSlide(html)` function with the given value, which in turn calls `io.emit('update slide', html)`.
+Here is what is going on:
+- The endpoint `/api/updateSlide` handles a **GET** request.
+- In the handler, if the query params contain the var `html` (ie. `localhost:8000/api/updateSlide?html=hello%20world`) then we call the `updateSlide(html)` function with the given value.
+- That in turn calls `io.emit('update slide', html)` with our relevant data.
 
 Let's see this in action! Keep a browser window open to `localhost:8000` and in your shell, put in `curl localhost:8000/api/updateSlide?html=hello%20world` (alternatively you can just open `localhost:8000/api/updateSlide?html=hello%20world` in another browser window)
 
@@ -480,7 +487,7 @@ Anyways, back to our app. Let's get our actual page content to update according 
 </body>
 ```
 
-We've added a `div` with id `slide` and some basic html to create a "slide". In our JavaScript we updated the `update slide` handler to select our `slide` div and replace it's inner html with whatever new html comes in from the server.
+We've added a `div` with id `slide` and some basic html to create a _presentation slide_. In our JavaScript we updated the `update slide` handler to select our `div#slide` and replace it's inner html with whatever new html comes in from the server.
 
 Now with the browser window open to `localhost:8000`, when we run those similar `curl` commands, we should get:
 
@@ -504,13 +511,13 @@ and turns it into:
 <p>Let's build a real-time app!</p>
 ```
 
-This bars us from having to write all the markup language by hand.
+This saves us from having to write all the markup language by hand.
 
 Let's go to our **server.js** and do some simple modifications to incorporate **Showdown**. At the top, require **Showdown** and then create a `converter` object as shown:
 
 <div class="file-path">server.js - Top</div>
 
-```
+```javascript
 const express = require('express');
 const http = require('http');
 const showdown = require('showdown');
@@ -566,14 +573,14 @@ app.get('/api/updateSlide', (req, res) => {
 });
 ```
 
-With our existing code, how would we get the following to show up on our screen?:
+With our existing code, how would we get the following to show up on our screen?
 
 ```html
 <h1>Hello World</h1>
 <p>Let's build a realtime app!</p>
 ```
 
-We know that this is generated by `#Hello World\nLet's build a real-time app!` using **Markdown**, so lets safely encode that into our request `localhost:8000/api/updateSlide?markdown=...`
+We know that this is generated by `#Hello World\nLet's build a real-time app!` using **Markdown**, so let's safely encode that into our request `localhost:8000/api/updateSlide?markdown=...`
 
 For URL [Percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding):
 - hash: `#` is `%23`
@@ -594,7 +601,7 @@ Let's try it out:
 
 Voila! We are able to fully update our "slide" with new html derived from simple **Markdown**.
 
-**OBVIOUSLY** we are never going to encode URLs manually, JavaScript can do that for us using the built-in `encodeURIComponent()` function.
+**OBVIOUSLY** we are never going to encode URLs manually, JavaScript can do that for us using the built-in `encodeURIComponent()` function. We just have to worry about writing **Markdown**.
 
 Now that our **show** view is working accordingly, let's work on our **edit** view. Open up **edit.html** and replace it's content with the following:
 
@@ -633,15 +640,19 @@ Now that our **show** view is working accordingly, let's work on our **edit** vi
 </html>
 ```
 
-Here we have a simple `textarea` where we can enter our **Markdown** and we've got a `div` with the id `submit-button` that once clicked will trigger the `sendUpdateSlideRequest(markdown)` helper function which generates a **GET** request to the endpoint `api/updateSlide`. It does so with the appropriately encoded data in the URL params.
+Here is a quick breakdown of that code:
+
+- We have a simple `textarea` where we can enter our **Markdown**
+- We've also got a `div` with the id `submit-button` that once _clicked_ will trigger the `sendUpdateSlideRequest(markdown)` helper function
+- The `sendUpdateSlideRequest(markdown)` function generates a **GET** request to the endpoint `api/updateSlide` with the appropriately encoded data in the URL params.
 
 Now if we open one browser window to `localhost:8000` and one to `localhost:8000/edit`, this is what we get:
 
 <img src="/images/realtime-slides-tut-sca-5.gif" style="width: 520px; max-width: 100%;">
 
-#### Functionality wise, we are close to complettion. Now we will add some additional features and styling for polish.
+#### Functionality wise, we are almost done! We just need to add some additional features and styling for polish.
 
-Let's add the ability to pre-load a slide deck and save submitted slides in our **edit** view.
+Let's add the ability to _pre-load_ a slide deck and retain submitted slides in our **edit** view.
 
 Open up **edit.html** and modify it as so:
 
@@ -776,7 +787,7 @@ And finally, add the following styles to your **show.html** file:
     }
 
     #submit-button {
-      padding: 25px 25px 25px 25px;
+      padding: 25px;
       text-align: center;
       margin: 0px 25px 25px 25px;
       border-radius: 5px;
