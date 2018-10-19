@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 
-<img src="/images/realtime-slides-tut-sca-1.gif" style="width: 480px; max-width: 100%;">
+<img src="http://nafeu.com/images/realtime-slides-tut-sca-1.gif" style="width: 480px; max-width: 100%;">
 
 Prototyping and building real-time web applications has never been as easy as it is today. There are many libraries that have taken away the complexity of utilizing **[WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)** technology. In this tutorial, we will look at using **Socket.io** and **JavaScript** in conjunction with **Express** and **Node** to build an incredibly simple and minimal presentation slides app that let's you update slides in real-time off of any internet connected device. Once completed, you can totally show it off at your next tech talk or lunch & learn.
 
@@ -82,7 +82,7 @@ Test it out by running `node server.js` and you should see the following output:
 [ server.js ] Listening on port 8000
 ```
 
-Everytime we update our **server.js** file we will have to restart our server, that is pretty annoying so let's use a tool called [Nodemon](https://nodemon.io/), install it with `npm install -g nodemon`.
+Every time we update our **server.js** file we will have to restart our server, that is pretty annoying so let's use a tool called [Nodemon](https://nodemon.io/), install it with `npm install -g nodemon`.
 
 Make sure you've ended your original server process, open a new shell instance aside from your main one and run `nodemon server.js`. This way we can keep making changes to our files and the server will restart automatically for us.
 
@@ -160,11 +160,11 @@ We want to build a clean path to our html files, we do this with `path.join(__di
 
 Now if we open a web browser to `localhost:8000`, we should see the following:
 
-<img src="/images/realtime-slides-tut-sc-1.png" style="width: 400px;">
+<img src="http://nafeu.com/images/realtime-slides-tut-sc-1.png" style="width: 400px;">
 
 And if we go to `localhost:8000/edit`, we should have:
 
-<img src="/images/realtime-slides-tut-sc-2.png" style="width: 400px;">
+<img src="http://nafeu.com/images/realtime-slides-tut-sc-2.png" style="width: 400px;">
 
 We can also test out our routes using [curl](https://curl.haxx.se/) like so:
 
@@ -290,7 +290,7 @@ _* Note: there is no significance to port `8000`, if your server was listening o
 
 Now if we open `localhost:8000` in a web browser and then look back to our server process, we should see something like this:
 
-<img src="/images/realtime-slides-tut-sca-2.gif" style="width: 480px; max-width: 100%;">
+<img src="http://nafeu.com/images/realtime-slides-tut-sca-2.gif" style="width: 480px; max-width: 100%;">
 
 The generated `id` will be unique for every connected client. Try opening `localhost:8000` in multiple browser tabs and you will see a bunch of different connection ids logged.
 
@@ -314,7 +314,7 @@ Within the _on-page_ script on **show.html**, add the following:
   </script>
 ```
 
-This adds a handle for a new event type we create called `update slide`. We want to have an `alert` pop up on screen anytime we recieve an `update slide` event from our socket connection.
+This adds a handle for a new event type we create called `update slide`. We want to have an `alert` pop up on screen anytime we receive an `update slide` event from our socket connection.
 
 Now that we have that ready, let's figure out how we can actually fire that event within our server.
 
@@ -341,7 +341,7 @@ This is temporary and just for us to demonstrate how the event emission process 
 1. A client establishes a WebSocket connection to `localhost:8000` (ie. a single user opens our page).
 2. The server-side `io` object handles that connection and gets access to it's relating `socket` object.
 3. The server-side `io` object emits an `update slide` event to that client through the `socket` object.
-3. The client recieves that `update slide` event and shows an `alert`.
+3. The client receives that `update slide` event and shows an `alert`.
 
 Open `localhost:8000` in your browser to try it out, you should see the `alert`.
 
@@ -385,7 +385,7 @@ In `socket.on('update slide', (data) => { ... })` we are grabbing the payload th
 
 Now if we open `localhost:8000` we should see the following alert message (please note that the generated `id` will be different for you):
 
-<img src="/images/realtime-slides-tut-sc-3.png" style="width: 480px; max-width: 100%;">
+<img src="http://nafeu.com/images/realtime-slides-tut-sc-3.png" style="width: 480px; max-width: 100%;">
 
 Pretty nifty huh? This rough demonstration shows us how we can begin pushing data and firing events between the server and the client. I highly recommend that you bookmark **[Socket.io's Emit Cheatsheet](https://socket.io/docs/emit-cheatsheet/)** for future reference.
 
@@ -461,7 +461,7 @@ In your server's process you should see:
 
 And in your browser window you should see:
 
-<img src="/images/realtime-slides-tut-sc-4.png" style="width: 480px; max-width: 100%;">
+<img src="http://nafeu.com/images/realtime-slides-tut-sc-4.png" style="width: 480px; max-width: 100%;">
 
 Isn't that awesome? We can use our existing knowledge of REST APIs to add a layer of real-time interaction to our app. It should be noted that you can generate requests using vanilla JavaScript without any extra libraries, so if you wanted to create a kind of **remote control** app to interact with a real-time interface, that **remote control** app doesn't even need to use **Socket.io**, it just has to hit the right API with the right HTTP requests. Neat!
 
@@ -491,7 +491,7 @@ We've added a `div` with id `slide` and some basic html to create a _presentatio
 
 Now with the browser window open to `localhost:8000`, when we run those similar `curl` commands, we should get:
 
-<img src="/images/realtime-slides-tut-sca-3.gif" style="width: 480px; max-width: 100%;">
+<img src="http://nafeu.com/images/realtime-slides-tut-sca-3.gif" style="width: 480px; max-width: 100%;">
 
 Sweet! We are slowly getting there. We don't actually ever want to manually type html to update our page, so it would be cool if we could type in something much more common and human readable which can then turn into html for us, something familiar like **[Markdown](https://en.wikipedia.org/wiki/Markdown)**.
 
@@ -597,7 +597,7 @@ curl localhost:8000/api/updateSlide?markdown=%23Hello%20World%0ALet%27s%20build%
 
 Let's try it out:
 
-<img src="/images/realtime-slides-tut-sca-4.gif" style="width: 520px; max-width: 100%;">
+<img src="http://nafeu.com/images/realtime-slides-tut-sca-4.gif" style="width: 520px; max-width: 100%;">
 
 Voila! We are able to fully update our "slide" with new html derived from simple **Markdown**.
 
@@ -648,7 +648,7 @@ Here is a quick breakdown of that code:
 
 Now if we open one browser window to `localhost:8000` and one to `localhost:8000/edit`, this is what we get:
 
-<img src="/images/realtime-slides-tut-sca-5.gif" style="width: 520px; max-width: 100%;">
+<img src="http://nafeu.com/images/realtime-slides-tut-sca-5.gif" style="width: 520px; max-width: 100%;">
 
 #### Functionality wise, we are almost done! We just need to add some additional features and styling for polish.
 
@@ -713,9 +713,9 @@ Open up **edit.html** and modify it as so:
 
 We aren't doing anything particularly clever here, so I'll let you debunk how the additional code works.
 
-In layman's, we are storing a set of slide data (like a deck) and generating some `div`s out of that data. Clicking on those `div`s submits that slide again to our API so it can update what is visible on the **show** view. Everytime we submit a new slide using the text field, that data gets added into our deck. This is what we get:
+In layman's, we are storing a set of slide data (like a deck) and generating some `div`s out of that data. Clicking on those `div`s submits that slide again to our API so it can update what is visible on the **show** view. Every time we submit a new slide using the text field, that data gets added into our deck. This is what we get:
 
-<img src="/images/realtime-slides-tut-sca-6.gif" style="width: 520px; max-width: 100%;">
+<img src="http://nafeu.com/images/realtime-slides-tut-sca-6.gif" style="width: 520px; max-width: 100%;">
 
 Now for some finishing touches!
 
@@ -750,7 +750,7 @@ Add the following styles to your **show.html** file:
   </style>
 ```
 
-And finally, add the following styles to your **show.html** file:
+And finally, add the following styles to your **edit.html** file:
 
 <div class="file-path">views/edit.html - Style</div>
 
@@ -810,7 +810,7 @@ And finally, add the following styles to your **show.html** file:
 
 And you finish off with:
 
-<img src="/images/realtime-slides-tut-sca-1.gif" style="width: 100%;">
+<img src="http://nafeu.com/images/realtime-slides-tut-sca-1.gif" style="width: 100%;">
 
 Hope you have enjoyed the tutorial! If you have any questions, feel free to comment below.
 
