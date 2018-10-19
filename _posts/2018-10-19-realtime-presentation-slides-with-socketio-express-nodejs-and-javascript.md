@@ -276,7 +276,7 @@ Look back at the JavaScript in our **show.html** file:
 
 <div class="file-path">views/show.html - On-Page JavaScript</div>
 
-```
+```html
   <script type="text/javascript">
 
     const socket = io();
@@ -302,7 +302,7 @@ Within the _on-page_ script on **show.html**, add the following:
 
 <div class="file-path">views/show.html - On-Page JavaScript</div>
 
-```
+```html
   <script type="text/javascript">
 
     const socket = io();
