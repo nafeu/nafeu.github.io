@@ -801,8 +801,8 @@ And you finish off with:
 
 <img src="/images/realtime-slides-tut-sca-1.gif" style="width: 100%;">
 
-Hope you enjoyed the tutorial! If you have any questions, feel free to comment below.
+Hope you have enjoyed the tutorial! If you have any questions, feel free to comment below.
 
-The demo project is available at [github.com/nafeu/realtime-slides-tut](https://github.com/nafeu/realtime-slides-tut) so check it out, fork it and have some fun!
+The demo project is available at [github.com/nafeu/realtime-slides-tut](https://github.com/nafeu/realtime-slides-tut) so check it out, fork it and have some fun! I've added instructions on how to get it up and running using heroku for online usage, once you've done that you can use it live just like I do off my iPad in this video [here](https://youtu.be/WmE6dkRFY4Y).
 
-Cheers
+Cheers!
