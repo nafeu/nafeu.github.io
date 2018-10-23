@@ -180,7 +180,7 @@ body {
 .list {
   &-post {
     padding: 4% 2%;
-    
+
     &:hover {
       background-color: $background-over-color;
       border-color: transparent;
@@ -372,5 +372,24 @@ body {
       color: $base-color;
       margin: 4px;
     }
+  }
+}
+
+/*--------------
+  About
+  -------------- */
+.project-preview {
+  width: 500px;
+  height: 250px;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  margin: 10px 10px 0px 0px;
+  transition: 400ms ease-in-out all;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  &:hover {
+    background-position-x: -500px;
   }
 }
