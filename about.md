@@ -78,6 +78,34 @@ explorer and more.
 
 Honours Bachelor of Science - Double Major in Computer Science and Linguistics, University of Toronto
 
+## <a name="music"></a>Music
+
+<img src="/images/music-banner.png">
+
+I've been producing progressive breaks, progressive house, drum & bass, chill and IDM/Glitch since I was 9 years-old (2004) and have continued with my passion for music ever since. I've put out 70+ original works (including 5+ album/ep releases) under the artist name **Phrakture** and have gotten support from artists/DJs like Jaytech, Solarstone, Matt Darey, Andy Moor, and more [(here is a shoutout from Solarstone himself)](https://soundcloud.com/springtube/slang-and-technodreamer-hypnosis-phrakture-remix-support-by-solarstone).
+
+More recently, I've been releasing indie-electronic, nusoul, chilltrap and chillwave music under the artist name **Nafeu** and have had my work featured on [Chill Masters](https://www.youtube.com/watch?v=AbzCs9eiy0Q).
+
+I've done some contracted work for [Flixel](https://flixel.com/), producing music for their videos [Lindsey Adler Shoots a Wedding Cinemagraph](https://www.youtube.com/watch?v=pT1Jn86r-C4) and [The Flixel Startup Story](https://www.youtube.com/watch?v=__gRRRjhhaw). I've also contributed a custom percussion pack for [ORION: Step Sequencer](http://echocollectivefx.com/product/orion-drum-machine), created a ton of midi controllerism, beatboxing, performance, and production tutorial videos on my YouTube channel [youtube.com/phrakture](https://youtube.com/phrakture), and released a few free sample packs on [Freesound](https://freesound.org/people/Phr4kture/).
+
+My main DAW is Cubase but I heavily incorporate Ableton for sound design. I specialize in warm melodies, deep 5th & 7th chord atmospheres, glitch edits and layered basslines. I'm a frequent user of some of the classic Native Instruments VSTs like Pro-53, FM8, Reaktor, Battery, Massive, etc. I also love incorporating live guitar, vocals, and field recordings.
+
+You can check out some of my work at the following links:
+
+#### Phrakture
+
+- [Bandcamp Discography](https://phrakture.bandcamp.com/music) - includes many self-released works
+- [Beatport](https://www.beatport.com/artist/phrakture/99726)
+- [Spotify](https://open.spotify.com/artist/4AlnXoFGT5zl3v85ScIOzK?si=ITGOTpZ7T1qTpVWC4NMvlQ)
+- [Soundcloud](https://soundcloud.com/phrakture)
+- [Freesound](https://freesound.org/people/Phr4kture/) - my free sample packs
+- [Official Discography Info](https://www.discogs.com/artist/1364238-Phrakture?page=1) - maintained by Discogs
+
+#### Nafeu
+
+- [Spotify](https://open.spotify.com/artist/5NhwrCkzOykT6SdxGzwEtL?si=WpivnOBpRFWCvIp_ZR4Gig)
+- [Soundcloud](https://soundcloud.com/nafeumusic)
+
 ## <a name="contact"></a>Contact
 
 Personal or Software Related: [nafeu.nasir@gmail.com](mailto:nafeu.nasir@gmail.com)<br>
