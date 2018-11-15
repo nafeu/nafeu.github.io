@@ -18,7 +18,7 @@ Follow me on [Goodreads](http://www.goodreads.com/nafeu) to see what I've been d
 ## <a name="dev"></a>Development
 
 <span class="help-text">* List of proficient skills with deeper focus in **bold**</span><br>
-**Python**, **Django**, **JavaScript**, **jQuery**, AngularJS, ReactJS, **Node.js**, **Socket.io**, **D3.js**, **Express.js**, **Mocha**, Grunt/Gulp/Webpack, **bash**, **Postgres**, MySQL, MongoDB, Mongoose, Cloudant, TFS, **git**, SVN, Clojure, ClojureScript, Leiningen, Reagent, Reframe, **HTML5**, **CSS3**, SCSS, AWS EC2/RDS, **Heroku**, Bluemix, Watson APIs, LaTeX, PHP, Wordpress, Java, C#, ASP.NET MVC, Veeva iRep, Agnitio, Loggly, Sentry, Travis CI, Botkit, Electron.io, **REST**, **OAuth**, JWT, **Bootstrap**, Flexgrid, Raspberry Pi, **ST3**, Visual Studio
+**Python**, **Django**, **JavaScript**, **jQuery**, **AngularJS**, ReactJS, **Node.js**, **Socket.io**, **D3.js**, **Express.js**, **Jest**, Mocha, Chai, Grunt/Gulp/Webpack, **bash**, **Postgres**, MySQL, **MongoDB**, **Mongoose**, Cloudant, TFS, **git**, SVN, Clojure, ClojureScript, Leiningen, Reagent, Reframe, **HTML5**, **CSS3**, SCSS, AWS EC2/RDS, **Heroku**, Bluemix, Watson APIs, LaTeX, PHP, Wordpress, Java, C#, ASP.NET MVC, Veeva iRep, Agnitio, Loggly, Sentry, Travis CI, Botkit, Electron.io, **REST**, **OAuth**, JWT, **Bootstrap**, Flexgrid, Raspberry Pi, **ST3**, Visual Studio, Jekyll, **Processing**, Postman
 
 #### <a name="work"></a>Work Experience
 
