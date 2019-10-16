@@ -18,9 +18,15 @@ Follow me on [Goodreads](http://www.goodreads.com/nafeu) to see what I've been d
 ## <a name="dev"></a>Development
 
 <span class="help-text">* List of proficient skills with deeper focus in **bold**</span><br>
-**Python**, **Django**, **JavaScript**, **jQuery**, **AngularJS**, ReactJS, **Node.js**, **Socket.io**, **D3.js**, **Express.js**, **Jest**, Mocha, Chai, Grunt/Gulp/Webpack, **bash**, **Postgres**, MySQL, **MongoDB**, **Mongoose**, Cloudant, TFS, **git**, SVN, Clojure, ClojureScript, Leiningen, Reagent, Reframe, **HTML5**, **CSS3**, SCSS, AWS EC2/RDS, **Heroku**, Bluemix, Watson APIs, LaTeX, PHP, Wordpress, Java, C#, ASP.NET MVC, Veeva iRep, Agnitio, Loggly, Sentry, Travis CI, Botkit, Electron.io, **REST**, **OAuth**, JWT, **Bootstrap**, Flexgrid, Raspberry Pi, **ST3**, Visual Studio, Jekyll, **Processing**, Postman
+**ReactJS**, **Redux**, **Lodash**, **Python**, Django, **JavaScript**, **GraphQL**, **jQuery**, **AngularJS**, **Node.js**, **Socket.io**, **D3.js**, **Express.js**, **Jest**, Mocha, Chai, Grunt/Gulp/Webpack, **bash**, **Postgres**, MySQL, **MongoDB**, **Mongoose**, Cloudant, TFS, **git**, SVN, Clojure, ClojureScript, Leiningen, Reagent, Reframe, **HTML5**, **CSS3**, SCSS, AWS EC2/RDS, **Heroku**, Bluemix, Watson APIs, LaTeX, PHP, Wordpress, Java, C#, ASP.NET MVC, Veeva iRep, Agnitio, Loggly, Bugsnag, Sentry, Travis CI, Circle CI, Botkit, Electron.io, **REST**, **OAuth**, JWT, **Bootstrap**, **Material UI**, Flexgrid, Raspberry Pi, **ST3**, Visual Studio, Jekyll, **Processing**, Postman
 
 #### <a name="work"></a>Work Experience
+
+**Full Stack Developer** - Pelmorex Corp., _Toronto, Ontario – January 2019 to Present_
+- Use React (incl. ES6, Functional Components, Await/Async, Context, and more), Redux, Lodash, Material UI, MongoDB, Elasticsearch, Redis and various other modern full-stack technologies to perform bug fixes, optimizations, bug tracking and comprehensive feature implementations on EngageFront (DSP) for Console Team
+- Participate in Scrum/Agile development life-cycle with related scrum ceremonies (estimation, sprint planning, retrospectives, etc.) and manage project work with JIRA. Collaborate with Data Science, Bidder and Infrastructure teams
+- Build and maintain internal development scripts, documentation and monitoring tools
+- Develop a deeper understanding of AdTech industry (general domain, reporting, DSP/DMPs, exchanges, performance metrics, ad operations, etc.)
 
 **Software Developer** – DIVE Networks, _Toronto, Ontario – Sep 2016 to Sep 2017_
 - Used Botkit, Slack API (Web, RTM and Events), Python and Node.js to build a secure chat bot server and Slack integration that interacts with DIVE's content management system.
