@@ -6,9 +6,9 @@ permalink: /about/
 <img src="/images/youth.jpg" style="width: 400px; margin-bottom: 0px;">
 <span style="font-size: 0.7em; margin-top: 0px;">*Hacking into the mainframe circa 2004*</span>
 
-I am a young innovator with a versatile set of skills in full-stack application development, UI/UX design, music production and digital content creation. I am passionate about software craftsmanship, edutech, data visualization, API economy, and open-source technologies.
+I am an innovative and creative thinker with a passion for challenging work in cloud, full-stack software development, design, UX, and open-source technologies. I'm a strong communicator and presenter with hands-on experience building robust web applications, modern front-end UIs, complex API integrations and realtime applications that communicate across a multitude of technologies. I am comfortably versed in continuous integration and test-driven development practices.
 
-Here are some fast facts:
+I also love reading, creating generative art in Processing, making music and playing video games, here are some quick facts:
   - I like to play competitive first-person shooters like CS:GO and Overwatch and I practically grew up on Doom and Unreal Tournament 99 (feel free to add me on Steam: [PhraktureMusic](https://steamcommunity.com/id/f1r3freak))
   - I've been making progressive breaks, liquid drum'n'bass and IDM using Cubase under the artist name [Phrakture](http://music.phrakture.com) since 2006 and have recently begun making more indie electronic music under the artist name [Nafeu](https://open.spotify.com/artist/5NhwrCkzOykT6SdxGzwEtL?si=zgwxIaxsS2iIFZZ8GYvuuQ)
   - I make youtube videos for performances and tutorials [here](https://youtube.com/phrakture) and silly gameplay highlights [here](https://www.youtube.com/channel/UCibPYDqdi5hMJbGBMoQ7Z0w/videos)
@@ -18,15 +18,15 @@ Follow me on [Goodreads](http://www.goodreads.com/nafeu) to see what I've been d
 ## <a name="dev"></a>Development
 
 <span class="help-text">* List of proficient skills with deeper focus in **bold**</span><br>
-**ReactJS**, **Redux**, **Lodash**, **Python**, Django, **JavaScript**, **GraphQL**, **jQuery**, **AngularJS**, **Node.js**, **Socket.io**, **D3.js**, **Express.js**, **Jest**, Mocha, Chai, Grunt/Gulp/Webpack, **bash**, **Postgres**, MySQL, **MongoDB**, **Mongoose**, Cloudant, TFS, **git**, SVN, Clojure, ClojureScript, Leiningen, Reagent, Reframe, **HTML5**, **CSS3**, SCSS, AWS EC2/RDS, **Heroku**, Bluemix, Watson APIs, LaTeX, PHP, Wordpress, Java, C#, ASP.NET MVC, Veeva iRep, Agnitio, Loggly, Bugsnag, Sentry, Travis CI, Circle CI, Botkit, Electron.io, **REST**, **OAuth**, JWT, **Bootstrap**, **Material UI**, Flexgrid, Raspberry Pi, **ST3**, Visual Studio, Jekyll, **Processing**, Postman
+**Node.js**, **ReactJS**, **Redux**, **Lodash**, **Python**, Django, **JavaScript**, **GraphQL**, **Redis**, **Elasticsearch**, **jQuery**, **AngularJS**, **Socket.io**, **D3.js**, **Express.js**, **Jest**, Mocha, Chai, Grunt/Gulp/Webpack, **bash**, **Postgres**, MySQL, **MongoDB**, **Mongoose**, TFS, **git**, SVN, Clojure, ClojureScript, Leiningen, Reagent, Reframe, **HTML5**, **CSS3**, SCSS, AWS EC2/RDS/S3, Google Cloud, **Heroku**, IBM Cloud/Watson APIs, LaTeX, PHP, Wordpress, Java, C#, ASP.NET MVC, Loggly, Bugsnag, Sentry, Travis CI, Circle CI, Botkit, Electron.io, **REST**, **OAuth**, JWT, **Bootstrap**, **Material UI**, Flexgrid, Raspberry Pi, **ST3**, Visual Studio, Jekyll, **Processing**, Postman
 
 #### <a name="work"></a>Work Experience
 
 **Full Stack Developer** - Pelmorex Corp., _Toronto, Ontario – January 2019 to Present_
 - Use React (incl. ES6, Functional Components, Await/Async, Context, and more), Redux, Lodash, Material UI, MongoDB, Elasticsearch, Redis and various other modern full-stack technologies to perform bug fixes, optimizations, bug tracking and comprehensive feature implementations on EngageFront (DSP) for Console Team
 - Participate in Scrum/Agile development life-cycle with related scrum ceremonies (estimation, sprint planning, retrospectives, etc.) and manage project work with JIRA. Collaborate with Data Science, Bidder and Infrastructure teams
-- Build and maintain internal development scripts, documentation and monitoring tools
-- Develop a deeper understanding of AdTech industry (general domain, reporting, DSP/DMPs, exchanges, performance metrics, ad operations, etc.)
+- Build and maintain internal development scripts, easy to use CLIs for various development task automation (incl. application deploys), documentation and complex realtime monitoring tools
+- Develop a deeper understanding of AdTech industry (general domain, reporting, DSP/DMPs, exchanges, publishers, advertisers, performance metrics, ad operations, etc.)
 
 **Software Developer** – DIVE Networks, _Toronto, Ontario – Sep 2016 to Sep 2017_
 - Used Botkit, Slack API (Web, RTM and Events), Python and Node.js to build a secure chat bot server and Slack integration that interacts with DIVE's content management system.
@@ -47,28 +47,58 @@ explorer and more.
 
 #### <a name="projects"></a>Projects
 
+- **[typing-test](https://github.com/nafeu/typing-test)** - An experimental typing test built with React and a Neumorphism UI design style.
+  <div class="projects-info">
+    <div class="project-preview" style="background-image: url('/images/preview-typing-test.png');" onclick="window.location='https://github.com/nafeu/typing-test'"></div>
+  </div>
+- **[oavp](https://github.com/nafeu/oavp)** - An open-source audio visualization framework for Processing.
+  <div class="projects-info">
+    <div class="project-preview" style="background-image: url('/images/preview-oavp.png');" onclick="window.location='https://github.com/nafeu/oavp'"></div>
+  </div>
 - **[gryt-focus](https://github.com/nafeu/gryt-focus)** - Socket.IO and jQuery based "deep focus" timer built  to run as dedicated instance on a Raspberry Pi.
-  <div class="project-preview" style="background-image: url('/images/preview-gryt-focus.png');" onclick="window.location='https://github.com/nafeu/gryt-focus'"></div>
+  <div class="projects-info">
+    <div class="project-preview" style="background-image: url('/images/preview-gryt-focus.png');" onclick="window.location='https://github.com/nafeu/gryt-focus'"></div>
+  </div>
 - **[Minimal eLearning](https://github.com/nafeu/minimal-elearning)** - A proof-of-concept eLearning solution which turns markdown files into lecture slides with interactive quizzes.
-  <div class="project-preview" style="background-image: url('/images/preview-minimal-elearning.png');" onclick="window.location='https://github.com/nafeu/minimal-elearning'"></div>
+  <div class="projects-info">
+    <div class="project-preview" style="background-image: url('/images/preview-minimal-elearning.png');" onclick="window.location='https://github.com/nafeu/minimal-elearning'"></div>
+  </div>
+- **[nafoodle.io](https://github.com/nafeu/nafoodle.io)** - Experimental multiplayer party game starter built with React, NodeJs, and Socket.io.
+  <div class="projects-info">
+    <div class="project-preview" style="background-image: url('/images/preview-nafoodle-io.png');" onclick="window.location='https://github.com/nafeu/nafoodle.io'"></div>
+  </div>
 - **[pseudo-storage](https://github.com/nafeu/pseudo-storage)** - A simple image uploader for dev use only. Built to provide a temporary CDN-like image storage solution to assist in testing or developing a separate application.
-  <div class="project-preview" style="background-image: url('/images/preview-pseudo-storage.png');" onclick="window.location='https://github.com/nafeu/pseudo-storage'"></div>
-- **[oavp](https://github.com/nafeu/oavp)** - An open source audio visualization framework for Processing
-  <div class="project-preview" style="background-image: url('/images/preview-oavp.png');" onclick="window.location='https://github.com/nafeu/oavp'"></div>
+  <div class="projects-info">
+    <div class="project-preview" style="background-image: url('/images/preview-pseudo-storage.png');" onclick="window.location='https://github.com/nafeu/pseudo-storage'"></div>
+  </div>
 - **[Groop Think](https://github.com/nafeu/groop-think)** - Multiplayer party game built with Node.js, Express.js, Socket.io and jQuery.
-  <div class="project-preview" style="background-image: url('/images/preview-groop-think.png');" onclick="window.location='https://github.com/nafeu/groop-think'"></div>
+  <div class="projects-info">
+    <div class="project-preview" style="background-image: url('/images/preview-groop-think.png');" onclick="window.location='https://github.com/nafeu/groop-think'"></div>
+  </div>
 - **[GRYT Skill Tracker](https://github.com/nafeu/gryt-skill-tracker)** - A simple gamification and tracking system for skills that are being learned or practiced.
-  <div class="project-preview" style="background-image: url('/images/preview-gryt-skill-tracker.png');" onclick="window.location='https://github.com/nafeu/gryt-skill-tracker'"></div>
+  <div class="projects-info">
+    <div class="project-preview" style="background-image: url('/images/preview-gryt-skill-tracker.png');" onclick="window.location='https://github.com/nafeu/gryt-skill-tracker'"></div>
+  </div>
 - **[Syntactique](https://github.com/nafeu/syntactique)** - A D3.js based sentence/syntax tree building tool
-  <div class="project-preview" style="background-image: url('/images/preview-syntactique.png');" onclick="window.location='https://github.com/nafeu/syntactique'"></div>
+  <div class="projects-info">
+    <div class="project-preview" style="background-image: url('/images/preview-syntactique.png');" onclick="window.location='https://github.com/nafeu/syntactique'"></div>
+  </div>
 - **[CollegeFalafel.com](http://collegefalafel.com)** – The website for College Falafel, a mediterranean eatery known for Halifax donairs & housemade desserts, located at College and Ossington.
-  <div class="project-preview" style="background-image: url('/images/preview-collegefalafel.png');" onclick="window.location='collegefalafel.com'"></div>
+  <div class="projects-info">
+    <div class="project-preview" style="background-image: url('/images/preview-collegefalafel.png');" onclick="window.location='collegefalafel.com'"></div>
+  </div>
 - **[CFL Study Tools](https://github.com/nafeu/cfl-study-tools)** - Various prototype/concept webapps for the Linguistics department at the University of Toronto, Scarborough.
-  <div class="project-preview" style="background-image: url('/images/preview-cfl-study-tools.png');" onclick="window.location='https://github.com/nafeu/cfl-study-tools'"></div>
+  <div class="projects-info">
+    <div class="project-preview" style="background-image: url('/images/preview-cfl-study-tools.png');" onclick="window.location='https://github.com/nafeu/cfl-study-tools'"></div>
+  </div>
 - **[CFL Interactive](https://github.com/nafeu/cfl-interactive)** - Interactive learning system for presentation slides, real-time student feedback, voting, YouTube video playback and live quizzes during lectures.
-  <div class="project-preview" style="background-image: url('/images/preview-cfl-interactive.png');" onclick="window.location='https://github.com/nafeu/cfl-interactive'"></div>
+  <div class="projects-info">
+    <div class="project-preview" style="background-image: url('/images/preview-cfl-interactive.png');" onclick="window.location='https://github.com/nafeu/cfl-interactive'"></div>
+  </div>
 - **[Content Fountain](https://github.com/nafeu/content-fountain)** - Content idea and hashtag generator for social media brand growth.
-  <div class="project-preview" style="background-image: url('/images/preview-content-fountain.png');" onclick="window.location='https://github.com/nafeu/content-fountain'"></div>
+  <div class="projects-info">
+    <div class="project-preview" style="background-image: url('/images/preview-content-fountain.png');" onclick="window.location='https://github.com/nafeu/content-fountain'"></div>
+  </div>
 - **[TextTransmute](https://github.com/nafeu/TextTransmute)** - An experimental Sublime Text 3 plugin that allows you to mutate selected text in a style inspired by VIM, Emacs and unix shell programming tools.
 - **[D3.js Experiments](https://github.com/nafeu/d3-experiments)** - My personal collection of D3.js experiments and sandboxing.
 - **[Node Socket Seed](https://github.com/nafeu/node-socket-seed)** - A starting point for basic Node.js/Express.js applications that use Socket.io and a simple Express API. Ideal for proof-of-concepts.

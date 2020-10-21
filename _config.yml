@@ -16,7 +16,7 @@ author:
   email:            nafeu.nasir@gmail.com
 
 copyright:
-  year:             2018
+  year:             2020
   name:             Nafeu Nasir
 
 # Google-analytics
@@ -28,8 +28,8 @@ disqus:
   id:               "nafeu-com"
 
 # URL
-url:                "https://nafeu.github.io" # the base hostname & protocol for your site
-# url:                "http://localhost:4000" # use this url when you develop
+# url:                "https://nafeu.github.io" # the base hostname & protocol for your site
+url:                "http://localhost:4000" # use this url when you develop
 baseurl:            "" # the subpath of your site, e.g. /blog
 
 
