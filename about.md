@@ -47,66 +47,87 @@ explorer and more.
 
 #### <a name="projects"></a>Projects
 
-- **[typing-test](https://github.com/nafeu/typing-test)** - An experimental typing test built with React and a Neumorphism UI design style.
+- **[typing-test](http://nafeu.com/typing-test)** - Experimental typing test built with React and a Neumorphism UI design style. [[source](https://github.com/nafeu/typing-test)]
   <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-typing-test.png');" onclick="window.location='https://github.com/nafeu/typing-test'"></div>
+    <div class="project-preview" style="background-image: url('/images/preview-typing-test.png');" onclick="window.location='http://nafeu/typing-test'"></div>
   </div>
-- **[oavp](https://github.com/nafeu/oavp)** - An open-source audio visualization framework for Processing.
+- **[pyngpong](http://nafeu.com/pyngpong)** - Real-time core dependency, live-system and product delivery metric monitoring tools. [[info](http://nafeu.com/pyngpong)]
   <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-oavp.png');" onclick="window.location='https://github.com/nafeu/oavp'"></div>
+    <div class="project-preview" style="background-image: url('/images/preview-pyngpong.png');" onclick="window.location='http://nafeu.com/pyngpong'"></div>
   </div>
-- **[gryt-focus](https://github.com/nafeu/gryt-focus)** - Socket.IO and jQuery based "deep focus" timer built  to run as dedicated instance on a Raspberry Pi.
+- **[fullstack-js-lessons](https://introspective-code.github.io/fullstack-js-lessons)** - Collection of hand-made full-stack JavaScript example projects for learning modern js fundamentals. [[source](https://github.com/introspective-code/fullstack-js-lessons)]
   <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-gryt-focus.png');" onclick="window.location='https://github.com/nafeu/gryt-focus'"></div>
+    <div class="project-preview" style="background-image: url('/images/preview-fullstack-js-lessons.png');" onclick="window.location='https://introspective-code.github.io/fullstack-js-lessons'"></div>
   </div>
-- **[Minimal eLearning](https://github.com/nafeu/minimal-elearning)** - A proof-of-concept eLearning solution which turns markdown files into lecture slides with interactive quizzes.
+- **[oavp](http://nafeu.com/oavp)** - Open-source audio visualization framework for Processing. [[source](https://github.com/nafeu/oavp)]
   <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-minimal-elearning.png');" onclick="window.location='https://github.com/nafeu/minimal-elearning'"></div>
+    <div class="project-preview" style="background-image: url('/images/preview-oavp.png');" onclick="window.location='http://nafeu.com/oavp'"></div>
   </div>
-- **[nafoodle.io](https://github.com/nafeu/nafoodle.io)** - Experimental multiplayer party game starter built with React, NodeJs, and Socket.io.
+- **[gryt-focus](http://nafeu.com/gryt-focus)** - Socket.IO and jQuery based "deep focus" timer built to run as dedicated instance on a Raspberry Pi. [[source](https://github.com/nafeu/gryt-focus)]
+  <div class="projects-info">
+    <div class="project-preview" style="background-image: url('/images/preview-gryt-focus.png');" onclick="window.location='http://nafeu.com/gryt-focus'"></div>
+  </div>
+- **[Minimal eLearning](http://nafeu.com/minimal-elearning)** - A proof-of-concept eLearning solution which turns markdown files into lecture slides with interactive quizzes. [[source](https://github.com/nafeu/minimal-elearning)]
+  <div class="projects-info">
+    <div class="project-preview" style="background-image: url('/images/preview-minimal-elearning.png');" onclick="window.location='http://nafeu.com/minimal-elearning'"></div>
+  </div>
+- **[Syntactique](http://nafeu.com/syntactique)** - A D3.js based sentence/syntax tree building tool [[source](https://github.com/nafeu/syntactique)]
+  <div class="projects-info">
+    <div class="project-preview" style="background-image: url('/images/preview-syntactique.png');" onclick="window.location='http://nafeu.com/syntactique'"></div>
+  </div>
+- **[nafoodle.io](https://github.com/nafeu/nafoodle.io)** - Experimental multiplayer party game starter built with React, NodeJs, and Socket.io. [[source](https://github.com/nafeu/nafoodle.io)]
   <div class="projects-info">
     <div class="project-preview" style="background-image: url('/images/preview-nafoodle-io.png');" onclick="window.location='https://github.com/nafeu/nafoodle.io'"></div>
   </div>
-- **[pseudo-storage](https://github.com/nafeu/pseudo-storage)** - A simple image uploader for dev use only. Built to provide a temporary CDN-like image storage solution to assist in testing or developing a separate application.
+- **[pseudo-storage](https://github.com/nafeu/pseudo-storage)** - A simple image uploader for dev use only. Built to provide a temporary CDN-like image storage solution to assist in testing or developing a separate application. [[source](https://github.com/nafeu/pseudo-storage)]
   <div class="projects-info">
     <div class="project-preview" style="background-image: url('/images/preview-pseudo-storage.png');" onclick="window.location='https://github.com/nafeu/pseudo-storage'"></div>
   </div>
-- **[Groop Think](https://github.com/nafeu/groop-think)** - Multiplayer party game built with Node.js, Express.js, Socket.io and jQuery.
+- **[Groop Think](https://github.com/nafeu/groop-think)** - Multiplayer party game built with Node.js, Express.js, Socket.io and jQuery. [[source](https://github.com/nafeu/groop-think)]
   <div class="projects-info">
     <div class="project-preview" style="background-image: url('/images/preview-groop-think.png');" onclick="window.location='https://github.com/nafeu/groop-think'"></div>
   </div>
-- **[GRYT Skill Tracker](https://github.com/nafeu/gryt-skill-tracker)** - A simple gamification and tracking system for skills that are being learned or practiced.
+- **[GRYT Skill Tracker](https://github.com/nafeu/gryt-skill-tracker)** - A simple gamification and tracking system for skills that are being learned or practiced. [[source](https://github.com/nafeu/gryt-skill-tracker)]
   <div class="projects-info">
     <div class="project-preview" style="background-image: url('/images/preview-gryt-skill-tracker.png');" onclick="window.location='https://github.com/nafeu/gryt-skill-tracker'"></div>
-  </div>
-- **[Syntactique](https://github.com/nafeu/syntactique)** - A D3.js based sentence/syntax tree building tool
-  <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-syntactique.png');" onclick="window.location='https://github.com/nafeu/syntactique'"></div>
   </div>
 - **[CollegeFalafel.com](http://collegefalafel.com)** – The website for College Falafel, a mediterranean eatery known for Halifax donairs & housemade desserts, located at College and Ossington.
   <div class="projects-info">
     <div class="project-preview" style="background-image: url('/images/preview-collegefalafel.png');" onclick="window.location='collegefalafel.com'"></div>
   </div>
-- **[CFL Study Tools](https://github.com/nafeu/cfl-study-tools)** - Various prototype/concept webapps for the Linguistics department at the University of Toronto, Scarborough.
+- **[CFL Study Tools](http://nafeu.com/cfl-study-tools)** - Various prototype/concept webapps for the Linguistics department at the University of Toronto, Scarborough. [[source](https://github.com/nafeu/cfl-study-tools)]
   <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-cfl-study-tools.png');" onclick="window.location='https://github.com/nafeu/cfl-study-tools'"></div>
+    <div class="project-preview" style="background-image: url('/images/preview-cfl-study-tools.png');" onclick="window.location='http://nafeu.com/cfl-study-tools'"></div>
   </div>
-- **[CFL Interactive](https://github.com/nafeu/cfl-interactive)** - Interactive learning system for presentation slides, real-time student feedback, voting, YouTube video playback and live quizzes during lectures.
+- **[CFL Interactive](https://github.com/nafeu/cfl-interactive)** - Interactive learning system for presentation slides, real-time student feedback, voting, YouTube video playback and live quizzes during lectures. [[source](https://github.com/nafeu/cfl-interactive)]
   <div class="projects-info">
     <div class="project-preview" style="background-image: url('/images/preview-cfl-interactive.png');" onclick="window.location='https://github.com/nafeu/cfl-interactive'"></div>
   </div>
-- **[Content Fountain](https://github.com/nafeu/content-fountain)** - Content idea and hashtag generator for social media brand growth.
+- **[Content Fountain](https://github.com/nafeu/content-fountain)** - Content idea and hashtag generator for social media brand growth. [[source](https://github.com/nafeu/content-fountain)]
   <div class="projects-info">
     <div class="project-preview" style="background-image: url('/images/preview-content-fountain.png');" onclick="window.location='https://github.com/nafeu/content-fountain'"></div>
   </div>
 - **[TextTransmute](https://github.com/nafeu/TextTransmute)** - An experimental Sublime Text 3 plugin that allows you to mutate selected text in a style inspired by VIM, Emacs and unix shell programming tools.
-- **[D3.js Experiments](https://github.com/nafeu/d3-experiments)** - My personal collection of D3.js experiments and sandboxing.
-- **[Node Socket Seed](https://github.com/nafeu/node-socket-seed)** - A starting point for basic Node.js/Express.js applications that use Socket.io and a simple Express API. Ideal for proof-of-concepts.
-- **[Angular GraphQL Prototype](https://github.com/nafeu/angular-graphql-prototype)** - A basic Angular 1 SPA starter that is useful for prototyping static sites with minimal MVC & API functionality.
+
 
 ## <a name="volunteering"></a>Volunteering and Community Involvement
 
 **Tech Enthusiast, Organizer** - [Introspective Code](http://github.com/introspective-code), _Toronto, Ontario – August 2014 to Present_
+
+<div class="volunteering-info">
+  <div class="volunteering-photo" style="background-image: url('/images/about-introspective-code-1.jpg');"></div>
+  <div class="volunteering-photo" style="background-image: url('/images/about-introspective-code-2.jpg');"></div>
+  <div class="volunteering-photo" style="background-image: url('/images/about-introspective-code-3.jpg');"></div>
+</div>
+
+**Introspective Code** is a code mentorship, hobbyist and networking community which was brought together by myself and one of my greatest mentors (who happens to also be my older brother) [Shahriyar Nasir](https://snasir.ca/about/). The community emerged in early 2014 when I noticed a few close friends of mine were seeking a common form of hands-on guidance in full-stack web and application development. The cohort that formed was a mix of 2nd year Computer Science, Statistics and Computer Engineering students from University of Toronto who at the time were seeking (or had just entered) their first serious software internship.
+
+Since Shah had already graduated from University of Toronto's Computer Science program and had a few years of software engineering experience under his belt, he offered his time and expertise to help us get our feet off the ground. For the next few months he organized/led workshops for us which he hosted in his office building's meeting space at [Nulogy](https://nulogy.com/).
+
+Half a decade later, students and friends from our cohort now work in intermediate/senior software development positions at companies like Microsoft, Google, Scotiabank, RBC, Pelmorex Corp, 1Password, and more. Our community now mainly exists through our Slack channel where new members are joining every few months.
+
+[Check out our github organization page here.](https://github.com/introspective-code/)
+
 
 **Nourishment Volunteer** – Recreation Therapy – West Park Healthcare Centre, _Toronto, Ontario – August 2013 to December 2014_
 
