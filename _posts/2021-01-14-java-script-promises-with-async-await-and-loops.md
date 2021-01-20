@@ -7,8 +7,6 @@ tags: [promises,async/await,javascript,loops,settimeout]
 comments: true
 share: true
 ---
-# JavaScript Promises and Async / Await with Loops
-
 This article will be an example driven guide on writing promises, consuming them through `async / await` code, and using them in loops.
 
 As a note, this article assumes that you are already familiar with concepts such as [Blocking vs Non-Blocking]() code in JavaScript and have maybe even seen (or written) a promise before.

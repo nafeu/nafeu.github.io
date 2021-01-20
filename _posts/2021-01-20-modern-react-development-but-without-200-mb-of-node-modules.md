@@ -7,8 +7,6 @@ tags: [react,snowpack,skypack,javascript]
 comments: true
 share: true
 ---
-# Modern React Development But Without 200+ MB of Node Modules
-
 I once had a coworker send me a *dummy website* as part of testing requirements for a code review. The website just had one button, and the button triggered some JavaScript. It was meant to be used in tandem with an `iframe` to test a larger, more sophisticated feature that she was working on. The site was sent to me in a zip file with simple instructions: unzip, `cd test_site`, `npm install` and `npm start`.
 
 There was one part of that whole process that I could honestly never get out of my head. 
