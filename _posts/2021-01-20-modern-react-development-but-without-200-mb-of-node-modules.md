@@ -2,7 +2,7 @@
 layout: post
 title: "Modern React Development But Without 200+ MB of Node Modules"
 description: "Using Snowpack and Skypack for Ultra-Fast React Development"
-date: 2020-01-20
+date: 2021-01-20
 tags: [react,snowpack,skypack,javascript]
 comments: true
 share: true
