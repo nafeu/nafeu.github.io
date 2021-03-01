@@ -43,7 +43,7 @@ And in a table would render:
 
 ![](https://res.cloudinary.com/dvivnklwq/image/upload/v1614625266/ii54imvarxkwkvlneggb.png)
 
-But what if we had more of a heirarchical (or tree-like) structure such as:
+But what if we had more of a hierarchical (or tree-like) structure such as:
 
 ```
 [
@@ -64,7 +64,7 @@ This is where things get wonky and we have to shift our approach a tiny bit. Let
 
 ![](https://res.cloudinary.com/dvivnklwq/image/upload/v1614625301/yci97q9pgj5ih95fmovs.png)
 
-In the real world, we have many instances where this is the case and they come in the form of drill-down tables. This is helpful for BI dashboards, video game leaderboards, accounting, or pretty much any case where you need futher investigate a single row in a table.
+In the real world, we have many instances where this is the case and they come in the form of drill-down tables. This is helpful for BI dashboards, video game leaderboards, accounting, or pretty much any case where you need further investigate a single row in a table.
 
 In [`index.mjs`](https://github.com/nafeu/react-query-table-sandbox/blob/main/index.mjs) from our example code, we have defined an API that returns mock data about an imaginary **software dev discussion group**.
 
@@ -92,7 +92,7 @@ The `api/` endpoint returns data in the form of:
 
 The `api/child` endpoint returns similar data but provides new entries every time, whereas the root `api/` endpoint returns the original payload with slight modifications. This is to simulate an "active website" where data changes in pseudo real-time.
 
-Although the example is a bit rough, imagine for a moment that each of these _discussion topics_ have _sub-issues_ which are structured in the same way. These will be used to persist a "heirarchical" structure in our table.
+Although the example is a bit rough, imagine for a moment that each of these _discussion topics_ have _sub-issues_ which are structured in the same way. These will be used to persist a "hierarchical" structure in our table.
 
 In our [front-end code](https://github.com/nafeu/react-query-table-sandbox/blob/main/src/ReactTableExpanding.jsx), we have:
 
