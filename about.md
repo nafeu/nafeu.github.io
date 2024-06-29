@@ -166,7 +166,7 @@ You can check out some of my work at the following links:
 ## <a name="contact"></a>Contact
 
 Personal or Software Related: [nafeu.nasir@gmail.com](mailto:nafeu.nasir@gmail.com)<br>
-Music Licensing or Remix Inquiry: [contact@phrakture.com](mailto:contact@phrakture.com)
+Music Licensing or Remix Inquiry: [phrakturemusic@proton.me](mailto:phrakturemusic@proton.me)
 
 
 

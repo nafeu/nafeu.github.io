@@ -16,22 +16,21 @@ $mobile-font-size: 16px;
 /*--------------
   Color
   -------------- */
-$base-color: #2C3E50;
+$base-color: $oc-gray-0;
 $base-lighten-color: $oc-gray-6;
 $base-highlight: #E74C3C;
 
-// $background-color: #ECF0F1;
-$background-color: #fff;
-$background-over-color: $oc-gray-1;
+$background-color: $oc-gray-9;
+$background-over-color: $oc-gray-8;
 
-$text-color: $oc-gray-8;
+$text-color: $base-color;
 $link-color: $oc-blue-8;
-$code-color: $oc-indigo-9;
-$code-background-color: $oc-gray-1;
+$code-color: $oc-indigo-3;
+$code-background-color: $oc-black;
 $table-border-color: $oc-gray-2;
-$table-background-color: $oc-gray-1;
+$table-background-color: $oc-gray-9;
 
-$divider-color: $background-color;
+$divider-color: $base-color;
 
 
 /*--------------

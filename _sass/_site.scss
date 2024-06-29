@@ -50,14 +50,14 @@ body {
     }
 
     span {
-      color: $oc-gray-5;
+      color: $oc-gray-0;
     }
 
   }
 
   &-nav {
     a {
-      color: $oc-gray-7;
+      color: $oc-gray-4;
       text-transform: lowercase;
       -webkit-transition: all .2s ease;
          -moz-transition: all .2s ease;
@@ -118,9 +118,13 @@ body {
     font-weight: 600;
   }
 
+  &-author {
+    color: $oc-gray-3;
+  }
+
   &-date {
     margin-bottom: .5rem;
-    color: $oc-gray-8;
+    color: $oc-blue-8;
     font-size: .75rem;
     text-transform: uppercase;
   }
@@ -166,11 +170,6 @@ body {
       }
     }
   }
-
-  &-disqus {
-    margin-top: 4rem;
-  }
-
 }
 
 /*--------------

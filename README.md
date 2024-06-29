@@ -73,15 +73,6 @@ google-analytics:
   id:               "your-id"
 ```
 
-### Disqus
-
-- Change this to your Disqus short name.
-
-```yml
-disqus:
-  id:               "your-id"
-```
-
 ### URL
 
 - Config your domain.

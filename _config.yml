@@ -16,16 +16,12 @@ author:
   email:            nafeu.nasir@gmail.com
 
 copyright:
-  year:             2020
+  year:             2024
   name:             Nafeu Nasir
 
 # Google-analytics
 google-analytics:
   id:               ""
-
-# Disqus
-disqus:
-  id:               "nafeu-com"
 
 # URL
 url:                "https://nafeu.github.io" # the base hostname & protocol for your site
