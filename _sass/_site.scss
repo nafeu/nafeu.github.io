@@ -438,3 +438,40 @@ body {
 .pyngpong-photo:hover {
   transform: scale(1.4);
 }
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.project-details {}
+
+.project-name {
+  font-weight: bold;
+  font-size: 1.25rem;
+
+  a {
+    font-size: 0.9rem;
+  }
+}
+
+.project-desc {
+
+}
+
+.project-images {
+  display: flex;
+  gap: 10px;
+}
+
+.project-image {
+  width: 125px;
+  height: 75px;
+}
+

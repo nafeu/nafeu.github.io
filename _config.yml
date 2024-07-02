@@ -25,11 +25,11 @@ google-analytics:
 
 # URL
 url:                "https://nafeu.github.io" # the base hostname & protocol for your site
-# url:                "http://localhost:4000" # use this url when you develop
+# url:                "https://localhost:4000" # use this url when you develop
 baseurl:            "" # the subpath of your site, e.g. /blog
 
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:           Canada/Eastern
 permalink:          /:year-:month-:day/:title/
 
@@ -55,6 +55,201 @@ nav:
   - name:           "Contact"
     url:            "/about#contact"
 
+projects:
+  - name:           "oavp"
+    desc:           "open source audio visualization and digital art editor build with processing"
+    source:         "https://github.com/nafeu/oavp"
+    preview:        "https://github.com/nafeu/oavp"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:           "facture"
+    desc:           "invoice generator cli for generating sleek and minimal invoices"
+    source:         "https://github.com/nafeu/facture"
+    preview:        "https://nafeu.com/facture"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:           "vanilla-scaffold"
+    desc:           "fast github-pages website generator for a plain HTML/CSS/JS webapps"
+    source:         "https://github.com/nafeu/vanilla-scaffold"
+    preview:        "https://nafeu.com/vanilla-scaffold"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:           "tiluo"
+    desc:           "code snippet lookup for \"things I look up often code\""
+    source:         "https://github.com/nafeu/tiluo"
+    preview:        "https://nafeu.com/tiluo"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:           "topic-weaver"
+    desc:           "javascript library for precisely generating random text using tree-like \"concept maps\""
+    source:         "https://github.com/nafeu/topic-weaver"
+    preview:        "https://nafeu.com/topic-weaver"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:           "keyflect"
+    desc:           "livestream asset overlay for displaying keyboard input"
+    source:         "https://github.com/nafeu/keyflect"
+    preview:        "https://nafeu.com/keyflect"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:           "livestream-assets"
+    desc:           "web-based UI components to use with OBS"
+    source:         "https://github.com/nafeu/livestream-assets"
+    preview:        "https://nafeu.com/livestream-assets"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:           "cycler"
+    desc:           "multimedia crossposting tools for youtube, instagram and more"
+    source:         "https://github.com/nafeu/cycler"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:           "groceries-by-meal"
+    desc:           "sleek and minimal grocery list generator"
+    source:         "https://github.com/nafeu/groceries-by-meal"
+    preview:        "https://nafeu.com/groceries-by-meal"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:           "form-constructor"
+    desc:           "interactive code generator for complex HTML forms"
+    source:         "https://github.com/nafeu/form-constructor"
+    preview:        "https://nafeu.com/form-constructor"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:           "deno-md-site"
+    desc:           "markdown-based static site generator built with deno"
+    source:         "https://github.com/nafeu/deno-md-site"
+    preview:        "https://nafeu.com/deno-md-site"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:           "realtime-slides-tut"
+    desc:           "source code for blog post on building a realtime presentation-deck webapp"
+    source:         "https://github.com/nafeu/realtime-slides-tut"
+    preview:        "https://nafeu.com/2018-10-19/realtime-presentation-slides-with-socketio-express-nodejs-and-javascript/"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:           "gryt-progress"
+    desc:           "self-guided behavioural analysis, goal tracking and habit tracking tools."
+    source:         "https://github.com/nafeu/gryt-progress"
+    live:           "https://gryt-progress.com"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:           "muchidea.xyz"
+    desc:           "create, use and share guided random idea generators"
+    source:         "https://github.com/nafeu/muchidea"
+    preview:        "https://muchidea.xyz"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:           "typing-test"
+    desc:           "experimental typing test exploring Neumorphism UI design style"
+    source:         "https://github.com/nafeu/typing-test"
+    preview:        "https://nafeu.com/typing-test"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:            "pyngpong (internal company project)"
+    desc:            "real-time core dependency, live-system and product delivery metric monitoring tools."
+    details:         "https://nafeu.com/pyngpong"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:            "fullstack-js-lessons"
+    desc:            "collection of hand-made educational full-stack JavaScript example projects"
+    source:          "https://github.com/introspective-code/fullstack-js-lessons"
+    preview:         "https://introspective-code.github.io/fullstack-js-lessons"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:            "gryt-focus"
+    desc:            "deep-focus timer built to run as dedicated instance on a rpi"
+    source:          "https://github.com/nafeu/gryt-focus"
+    preview:         "https://nafeu.com/gryt-focus"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:            "Minimal eLearning"
+    desc:            "eLearning solution for turning markdown files interactive lecture slides (with quizzes)"
+    source:          "https://github.com/nafeu/minimal-elearning"
+    preview:         "https://nafeu.com/minimal-elearning"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:            "Syntactique"
+    desc:            "stuff and things"
+    source:          "https://github.com/nafeu"
+    preview:         "https://nafeu.com/syntactique"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:            "nafoodle.io"
+    desc:            "experimental online multiplayer party game starter-code"
+    source:          "https://github.com/nafeu/nafoodle.io"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:            "pseudo-storage"
+    desc:            "cdn-like local image uploader for dev-use"
+    source:          "https://github.com/nafeu/pseudo-storage"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:            "Groop Think"
+    desc:            "multiplayer party game about knowing the popular answer over the correct one"
+    source:          "https://github.com/nafeu/groop-think"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:            "GRYT Skill Tracker"
+    desc:            "gamified skill tracker android app"
+    source:          "https://github.com/nafeu/gryt-skill-tracker"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:            "CollegeFalafel.com"
+    desc:            "official website for College Falafel restaurant"
+    live:            "https://collegefalafel.com"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:            "CFL Study Tools"
+    desc:            "various webapps for the Linguistics department at the University of Toronto, Scarborough"
+    preview:         "https://nafeu.com/cfl-study-tools"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:            "CFL Interactive"
+    desc:            "interactive learning system for college lectures (slides, real-time student feedback, voting, video playback)"
+    source:          "https://github.com/nafeu/cfl-interactive"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:            "Content Fountain"
+    desc:            "content and hashtag generator for social media brand growth"
+    source:          "https://github.com/nafeu/content-fountain"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+  - name:            "TextTransmute"
+    desc:            "An experimental Sublime Text 3 plugin for programmatically mutating code"
+    source:          "https://github.com/nafeu/TextTransmute"
+    images:
+      - preview-typing-test.png
+      - preview-oavp.png
+
+
 # Sass
 sass:
   sass_dir:         _sass
@@ -75,7 +270,7 @@ defaults:
     values:
       layout:       "post"
 
-# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
+# jekyll-seo-tag, see: https://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
 gems:
   - jekyll-seo-tag
   - jekyll-paginate

@@ -6,27 +6,35 @@ permalink: /about/
 <img src="/images/youth.jpg" style="width: 400px; margin-bottom: 0px;">
 <span style="font-size: 0.7em; margin-top: 0px;">*Hacking into the mainframe circa 2004*</span>
 
-I am an innovative and creative thinker with a passion for challenging work in cloud, full-stack software development, design, UX, and open-source technologies. I'm a strong communicator and presenter with hands-on experience building robust web applications, modern front-end UIs, complex API integrations and realtime applications that communicate across a multitude of technologies. I am comfortably versed in continuous integration and test-driven development practices.
+Hey there! I'm Nafeu. I'm a programmer, musician, digital artist, content creator and general technology enthusiast. I started in software in 2014 and haven't looked back since. So far in my career I've done the following:
+- architected, built and deployed full-stack web applications from start to finish with modern api integrations (payments processing via Stripe, error monitoring, email alerts, etc.)
+- worked on platforms with complex data visualizations (analytics dashboards, internal system monitoring dashboards, various interactive charts, realtime data display)
+- done freelance software consulting with clients in academic research, restaurant/catering management, speech therapy, and more
 
-I also love reading, creating generative art in Processing, making music and playing video games, here are some quick facts:
-  - I like to play competitive first-person shooters like CS:GO and Overwatch and I practically grew up on Doom and Unreal Tournament 99 (feel free to add me on Steam: [PhraktureMusic](https://steamcommunity.com/id/f1r3freak))
-  - I've been making progressive breaks, liquid drum'n'bass and IDM using Cubase under the artist name [Phrakture](http://music.phrakture.com) since 2006 and have recently begun making more indie electronic music under the artist name [Nafeu](https://open.spotify.com/artist/5NhwrCkzOykT6SdxGzwEtL?si=zgwxIaxsS2iIFZZ8GYvuuQ)
-  - I make youtube videos for performances and tutorials [here](https://youtube.com/phrakture) and silly gameplay highlights [here](https://www.youtube.com/channel/UCibPYDqdi5hMJbGBMoQ7Z0w/videos)
+Software is my most passionate hobby and I've got A LOT of side projects. I also love reading, creating generative art in Processing, producing electronic music and playing video games, here are some quick facts:
+  - I like to play competitive first-person shooters like Counter-Strike and Overwatch. I practically grew up on Doom and Unreal Tournament 99 (feel free to add me on Steam: [PhraktureMusic](https://steamcommunity.com/id/f1r3freak))
+  - I've been making progressive breaks, liquid drum'n'bass and IDM using Cubase and Ableton under the artist name [Phrakture](http://music.phrakture.com) since 2006, indie electronic music under the artist name [Nafeu](https://open.spotify.com/artist/5NhwrCkzOykT6SdxGzwEtL?si=zgwxIaxsS2iIFZZ8GYvuuQ)
+  - I recently completed the original videogame soundtrack for [Lorn's Lure](https://x.com/_rubeki)
 
 Follow me on [Goodreads](http://www.goodreads.com/nafeu) to see what I've been digging in to lately and feel free to recommend a good book while you are at it!
 
 ## <a name="dev"></a>Development
 
-<span class="help-text">* List of proficient skills with deeper focus in **bold**</span><br>
-**Node.js**, **ReactJS**, **Redux**, **Lodash**, **Python**, Django, **JavaScript**, **GraphQL**, **Redis**, **Elasticsearch**, **jQuery**, **AngularJS**, **Socket.io**, **D3.js**, **Express.js**, **Jest**, Mocha, Chai, Grunt/Gulp/Webpack, **bash**, **Postgres**, MySQL, **MongoDB**, **Mongoose**, TFS, **git**, SVN, Clojure, ClojureScript, Leiningen, Reagent, Reframe, **HTML5**, **CSS3**, SCSS, AWS EC2/RDS/S3, Google Cloud, **Heroku**, IBM Cloud/Watson APIs, LaTeX, PHP, Wordpress, Java, C#, ASP.NET MVC, Loggly, Bugsnag, Sentry, Travis CI, Circle CI, Botkit, Electron.io, **REST**, **OAuth**, JWT, **Bootstrap**, **Material UI**, Flexgrid, Raspberry Pi, **ST3**, Visual Studio, Jekyll, **Processing**, Postman
+I specialize in sleek, high-interactivity modern user interfaces for ETL dashboards, forms, configuration and data visualizations. However I've also spent quite some time building complex multi-step API integrations. Check out my work experience below:
 
 #### <a name="work"></a>Work Experience
 
-**Full Stack Developer** - Pelmorex Corp., _Toronto, Ontario – January 2019 to Present_
-- Use React (incl. ES6, Functional Components, Await/Async, Context, and more), Redux, Lodash, Material UI, MongoDB, Elasticsearch, Redis and various other modern full-stack technologies to perform bug fixes, optimizations, bug tracking and comprehensive feature implementations on EngageFront (DSP) for Console Team
-- Participate in Scrum/Agile development life-cycle with related scrum ceremonies (estimation, sprint planning, retrospectives, etc.) and manage project work with JIRA. Collaborate with Data Science, Bidder and Infrastructure teams
-- Build and maintain internal development scripts, easy to use CLIs for various development task automation (incl. application deploys), documentation and complex realtime monitoring tools
-- Develop a deeper understanding of AdTech industry (general domain, reporting, DSP/DMPs, exchanges, publishers, advertisers, performance metrics, ad operations, etc.)
+**Senior Front-End Engineer** - Tenjin Inc., _Remote - January 2021 to Present_
+- Implement and maintain various complex front-end features for Tenjin.io customer dashboard in a Rails/Postgres/ReactJS tech stack
+- Write and maintain comprehensive developer documentation, manage front-end candidate technical assessments
+- Host many internal events ranging from social cafés, lightning talks, open-source contribution days, user personas creation, etc.
+- Contribute to Tenjin Engineering Blog on medium
+
+**Full Stack Developer** - Pelmorex Corp., _Toronto, Ontario – January 2019 to December 2020_
+- Used React (incl. ES6, Functional Components, Await/Async, Context, and more), Redux, Lodash, Material UI, MongoDB, Elasticsearch, Redis and various other modern full-stack technologies to perform bug fixes, optimizations, bug tracking and comprehensive feature implementations on EngageFront (DSP) for Console Team
+- Participated in Scrum/Agile development life-cycle with related scrum ceremonies (estimation, sprint planning, retrospectives, etc.) and manage project work with JIRA. Collaborate with Data Science, Bidder and Infrastructure teams
+- Built and maintained internal development scripts, easy to use CLIs for various development task automation (incl. application deploys), documentation and complex realtime monitoring tools
+- Developed a deeper understanding of AdTech industry (general domain, reporting, DSP/DMPs, exchanges, publishers, advertisers, performance metrics, ad operations, etc.)
 
 **Software Developer** – DIVE Networks, _Toronto, Ontario – Sep 2016 to Sep 2017_
 - Used Botkit, Slack API (Web, RTM and Events), Python and Node.js to build a secure chat bot server and Slack integration that interacts with DIVE's content management system.
@@ -47,68 +55,39 @@ explorer and more.
 
 #### <a name="projects"></a>Projects
 
-- **[typing-test](http://nafeu.com/typing-test)** - Experimental typing test built with React and a Neumorphism UI design style. [[source](https://github.com/nafeu/typing-test)]
-  <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-typing-test.png');" onclick="window.location='http://nafeu/typing-test'"></div>
-  </div>
-- **[pyngpong](http://nafeu.com/pyngpong)** - Real-time core dependency, live-system and product delivery metric monitoring tools. [[info](http://nafeu.com/pyngpong)]
-  <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-pyngpong.png');" onclick="window.location='http://nafeu.com/pyngpong'"></div>
-  </div>
-- **[fullstack-js-lessons](https://introspective-code.github.io/fullstack-js-lessons)** - Collection of hand-made full-stack JavaScript example projects for learning modern js fundamentals. [[source](https://github.com/introspective-code/fullstack-js-lessons)]
-  <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-fullstack-js-lessons.png');" onclick="window.location='https://introspective-code.github.io/fullstack-js-lessons'"></div>
-  </div>
-- **[oavp](http://nafeu.com/oavp)** - Open-source audio visualization framework for Processing. [[source](https://github.com/nafeu/oavp)]
-  <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-oavp.png');" onclick="window.location='http://nafeu.com/oavp'"></div>
-  </div>
-- **[gryt-focus](http://nafeu.com/gryt-focus)** - Socket.IO and jQuery based "deep focus" timer built to run as dedicated instance on a Raspberry Pi. [[source](https://github.com/nafeu/gryt-focus)]
-  <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-gryt-focus.png');" onclick="window.location='http://nafeu.com/gryt-focus'"></div>
-  </div>
-- **[Minimal eLearning](http://nafeu.com/minimal-elearning)** - A proof-of-concept eLearning solution which turns markdown files into lecture slides with interactive quizzes. [[source](https://github.com/nafeu/minimal-elearning)]
-  <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-minimal-elearning.png');" onclick="window.location='http://nafeu.com/minimal-elearning'"></div>
-  </div>
-- **[Syntactique](http://nafeu.com/syntactique)** - A D3.js based sentence/syntax tree building tool [[source](https://github.com/nafeu/syntactique)]
-  <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-syntactique.png');" onclick="window.location='http://nafeu.com/syntactique'"></div>
-  </div>
-- **[nafoodle.io](https://github.com/nafeu/nafoodle.io)** - Experimental multiplayer party game starter built with React, NodeJs, and Socket.io. [[source](https://github.com/nafeu/nafoodle.io)]
-  <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-nafoodle-io.png');" onclick="window.location='https://github.com/nafeu/nafoodle.io'"></div>
-  </div>
-- **[pseudo-storage](https://github.com/nafeu/pseudo-storage)** - A simple image uploader for dev use only. Built to provide a temporary CDN-like image storage solution to assist in testing or developing a separate application. [[source](https://github.com/nafeu/pseudo-storage)]
-  <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-pseudo-storage.png');" onclick="window.location='https://github.com/nafeu/pseudo-storage'"></div>
-  </div>
-- **[Groop Think](https://github.com/nafeu/groop-think)** - Multiplayer party game built with Node.js, Express.js, Socket.io and jQuery. [[source](https://github.com/nafeu/groop-think)]
-  <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-groop-think.png');" onclick="window.location='https://github.com/nafeu/groop-think'"></div>
-  </div>
-- **[GRYT Skill Tracker](https://github.com/nafeu/gryt-skill-tracker)** - A simple gamification and tracking system for skills that are being learned or practiced. [[source](https://github.com/nafeu/gryt-skill-tracker)]
-  <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-gryt-skill-tracker.png');" onclick="window.location='https://github.com/nafeu/gryt-skill-tracker'"></div>
-  </div>
-- **[CollegeFalafel.com](http://collegefalafel.com)** – The website for College Falafel, a mediterranean eatery known for Halifax donairs & housemade desserts, located at College and Ossington.
-  <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-collegefalafel.png');" onclick="window.location='collegefalafel.com'"></div>
-  </div>
-- **[CFL Study Tools](http://nafeu.com/cfl-study-tools)** - Various prototype/concept webapps for the Linguistics department at the University of Toronto, Scarborough. [[source](https://github.com/nafeu/cfl-study-tools)]
-  <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-cfl-study-tools.png');" onclick="window.location='http://nafeu.com/cfl-study-tools'"></div>
-  </div>
-- **[CFL Interactive](https://github.com/nafeu/cfl-interactive)** - Interactive learning system for presentation slides, real-time student feedback, voting, YouTube video playback and live quizzes during lectures. [[source](https://github.com/nafeu/cfl-interactive)]
-  <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-cfl-interactive.png');" onclick="window.location='https://github.com/nafeu/cfl-interactive'"></div>
-  </div>
-- **[Content Fountain](https://github.com/nafeu/content-fountain)** - Content idea and hashtag generator for social media brand growth. [[source](https://github.com/nafeu/content-fountain)]
-  <div class="projects-info">
-    <div class="project-preview" style="background-image: url('/images/preview-content-fountain.png');" onclick="window.location='https://github.com/nafeu/content-fountain'"></div>
-  </div>
-- **[TextTransmute](https://github.com/nafeu/TextTransmute)** - An experimental Sublime Text 3 plugin that allows you to mutate selected text in a style inspired by VIM, Emacs and unix shell programming tools.
+<!-- style="background-image: url('{{ project.image }}');" -->
 
+<div class="projects-list">
+{% for project in site.projects %}
+<div class="project">
+  <div class="project-details">
+    <div class="project-name">
+      {{ project.name }}
+      {% if project.source %}
+      <a href="{{ project.source }}">[src]</a>
+      {% endif %}
+      {% if project.preview %}
+      <a href="{{ project.preview }}">[preview]</a>
+      {% endif %}
+      {% if project.live %}
+      <a href="{{ project.live }}">[live]</a>
+      {% endif %}
+      {% if project.details %}
+      <a href="{{ project.details }}">[details]</a>
+      {% endif %}
+    </div>
+    <div class="project-desc">{{ project.desc }}</div>
+  </div>
+  <div class="project-images">
+    {% if project.images %}
+      {% for src in project.images %}
+        <image class="project-image" src="/images/{{ src }}" />
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
+</div>
 
 ## <a name="volunteering"></a>Volunteering and Community Involvement
 
@@ -124,7 +103,7 @@ explorer and more.
 
 Since Shah had already graduated from University of Toronto's Computer Science program and had a few years of software engineering experience under his belt, he offered his time and expertise to help us get our feet off the ground. For the next few months he organized/led workshops for us which he hosted in his office building's meeting space at [Nulogy](https://nulogy.com/).
 
-Half a decade later, students and friends from our cohort now work in intermediate/senior software development positions at companies like Microsoft, Google, Scotiabank, RBC, Pelmorex Corp, 1Password, and more. Our community now mainly exists through our Slack channel where new members are joining every few months.
+Since then, students and friends from our cohort now work in senior software development positions at companies like Microsoft, Google, Scotiabank, RBC, 1Password, and more. Some of which have gone on to build their own YCombinator startups. Our community now mainly exists through our Slack channel where new members are joining every few months.
 
 [Check out our github organization page here.](https://github.com/introspective-code/)
 
@@ -141,7 +120,7 @@ Honours Bachelor of Science - Double Major in Computer Science and Linguistics, 
 
 I've been producing progressive breaks, progressive house, drum & bass, chill and IDM/Glitch since I was 9 years-old (2004) and have continued with my passion for music ever since. I've put out 70+ original works (including 5+ album/ep releases) under the artist name **Phrakture** and have gotten support from artists/DJs like Jaytech, Solarstone, Matt Darey, Andy Moor, and more [(here is a shoutout from Solarstone himself)](https://soundcloud.com/springtube/slang-and-technodreamer-hypnosis-phrakture-remix-support-by-solarstone).
 
-More recently, I've been releasing indie-electronic, nusoul, chilltrap and chillwave music under the artist name **Nafeu** and have had my work featured on [Chill Masters](https://www.youtube.com/watch?v=AbzCs9eiy0Q).
+I've also released indie-electronic, nusoul, chilltrap and chillwave music under the artist name **Nafeu** and have had my work featured on [Chill Masters](https://www.youtube.com/watch?v=AbzCs9eiy0Q).
 
 I've done some contracted work for [Flixel](https://flixel.com/), producing music for their videos [Lindsey Adler Shoots a Wedding Cinemagraph](https://www.youtube.com/watch?v=pT1Jn86r-C4) and [The Flixel Startup Story](https://www.youtube.com/watch?v=__gRRRjhhaw). I've also contributed a custom percussion pack for [ORION: Step Sequencer](http://echocollectivefx.com/product/orion-drum-machine), created a ton of midi controllerism, beatboxing, performance, and production tutorial videos on my YouTube channel [youtube.com/phrakture](https://youtube.com/phrakture), and released a few free sample packs on [Freesound](https://freesound.org/people/Phr4kture/). I have also been featured on [OverClocked Remix](https://ocremix.org/) for my remix of ["Foregone Destruction"](https://ocremix.org/remix/OCR01976) from the Unreal Tournament Soundtrack.
 
@@ -151,6 +130,7 @@ You can check out some of my work at the following links:
 
 #### Phrakture
 
+- [Phrakture.com](https://phrakture.com)
 - [Bandcamp Discography](https://phrakture.bandcamp.com/music) - includes many self-released works
 - [Beatport](https://www.beatport.com/artist/phrakture/99726)
 - [Spotify](https://open.spotify.com/artist/4AlnXoFGT5zl3v85ScIOzK?si=ITGOTpZ7T1qTpVWC4NMvlQ)
